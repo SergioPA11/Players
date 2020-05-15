@@ -1,0 +1,47 @@
+<jugadores>
+  <jugador>
+    <nombre>Aubameyang</nombre>
+    <dorsal>14</dorsal>
+    <equipo>Arsenal FC</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Heung Min Son</nombre>
+    <dorsal>7</dorsal>
+    <equipo>Tottenham Hotspurs</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Frenkie de Jong</nombre>
+    <dorsal>21</dorsal>
+    <equipo>FC Barcelona</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Eden Hazard</nombre>
+    <dorsal>7</dorsal>
+    <equipo>Real Madrid CF</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Jan Vertonghen</nombre>
+    <dorsal>5</dorsal>
+    <equipo>Tottenham Hotspurs</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Luis Suarez</nombre>
+    <dorsal>9</dorsal>
+    <equipo>FC Barcelona</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Mesut Özil</nombre>
+    <dorsal>10</dorsal>
+    <equipo>Arsenal FC</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Harry Kane</nombre>
+    <dorsal>9</dorsal>
+    <equipo>Tottenham Hotspurs</equipo>
+  </jugador>
+  <jugador>
+    <nombre>Lionel Messi</nombre>
+    <dorsal>10</dorsal>
+    <equipo>FC Barcelona</equipo>
+  </jugador>
+</jugadores>
