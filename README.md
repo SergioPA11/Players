@@ -1,7 +1,7 @@
 # Players
 
 BaseX project 
-Where I create two xq files and an xml that deals the soccer players
+Where I create two xq files and an xml that deals that is about soccer players
 
 
 ## VERSION 1 Proyect BaseX
