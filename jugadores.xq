@@ -27,14 +27,18 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
 </script>
+<link rel="stylesheet" href="https://playita-70a1b.firebaseapp.com/css/styles.css"></link>
 
   </head>
   <body>
+   
+    <div class = "container">
+    <br></br>
+     <h1>Buscar jugador por equipo</h1>
     <form action="/Jugadores/jugador" method="POST">
     Equipo:<input type="text" name="equipo"/>
     <button type="submit">Find</button>
     </form>
-    <div class = "container">
       <table class = "table">
         <thead>
         <tr>
@@ -44,6 +48,39 @@
         </tr>
         </thead>
         <tbody>
+        
+        <br></br>
+        <br></br>
+        
+     <h1>Añadir Jugador</h1>   
+     <form action="/Jugadores" method="POST">
+    Equipo:<input type="text" name="equipo"/>
+    Dorsal:<input type="number" name="dorsal"/>
+    Nombre:<input type="text" name="nombre"/>
+    <button type="submit">Add</button>
+    </form>
+    
+    <br></br>
+    <br></br>
+    
+    <h1>Retirar Jugador</h1>   
+     <form action="/Jugadores/jugador/nombre" method="POST">
+    Dorsal:<input type="number" name="dorsal"/>
+    Nombre:<input type="text" name="nombre"/>
+    <button type="submit">Retired</button>
+    </form>
+    
+    <br></br>
+    <br></br>
+    
+    <h1>Modificar Jugador</h1>   
+     <form action="/Jugadores/jugador/updatePlayer" method="POST">
+    Nombre:<input type="text" name="nombre"/>
+    <button type="submit">Update</button>
+    </form>
+    
+    <br></br>
+    
 {
   for $b in doc(
       "jugadores")//jugador
@@ -53,8 +90,8 @@
   <td>{$b/dorsal/text()}</td>
   <td>{$b/equipo/text()}</td>
   </tr>
-
 }
+
         
         </tbody>
       </table>
