@@ -102,13 +102,11 @@ declare
    %rest:path("/Jugadores/jugador/nombre")
    %rest:form-param("nombre","{$nombre}","(no nombre)")
    %rest:form-param("dorsal","{$dorsal}","(no dorsal)")
-   %rest:form-param("equipo","{$equipo}","(no equipo)")
    %output:method("html")
    %output:doctype-system("about:legacy-compact")
    updating function page:DeleteJugadores(
      $nombre as xs:string,
-     $dorsal as xs:integer,
-     $equipo as xs:string
+     $dorsal as xs:integer
 
    ){
   update:output(web:redirect('/Jugadores')),
