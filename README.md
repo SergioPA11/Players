@@ -12,7 +12,7 @@ Here you can add your favorite players, teams, and their numbers and do not worr
 
 * [players XQM](https://github.com/SergioPA11/Players/blob/master/players.xq)
 
-## Construido con
+## Built with
 
 * [BaseX](http://basex.org/)
 
